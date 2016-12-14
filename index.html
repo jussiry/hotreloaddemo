@@ -1,0 +1,19 @@
+<!docype html>
+<html>
+  <head>
+    <title>Hot reloading test</title>
+    <!--base href="/"-->
+    <meta charset="utf-8">
+    <script src="jspm_packages/system.js"></script>
+    <!--script src="jspm.browser.js"></script-->
+    <script src="jspm.config.js"></script>
+    <!-- <script src="bundledStyles.js"></script> -->
+  </head>
+  <body>
+    <main></main>
+    <script>
+      SystemJS.import('src/grandParent.js');
+    </script>
+  </body>
+
+</html>
